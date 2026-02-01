@@ -18,7 +18,7 @@ env:
   ALIVE_BRANCH_DEV: alive-dev
 
 jobs:
-  # Checks if Distribution certificate is present and valid, optionally nukes and
+  # Checks if Distribution certificate is present and valid, optionally nukes and 
   # creates new certs if the repository variable ENABLE_NUKE_CERTS == 'true'
   check_certs: 
       name: Check certificates
