@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   ## Remove the "#" sign from the beginning of the line below to get automated builds on push (code changes in your repository)
-  #push:
+  push:
 
   schedule:
     # avoid starting an action at times when GitHub resources are more likely to be impacted
